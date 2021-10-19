@@ -1,0 +1,61 @@
+.container {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header {
+    position: absolute;
+    top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.board {
+    margin-top: 80px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    width: 80px;
+    height: 80px;
+    background-color: royalblue;
+    border: 1px solid black;
+    display: flex;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.bu {
+    border-radius: 50%;
+    background-color: white;
+    flex: 1;
+    display: flex;
+}
+
+.bu-selected {
+    flex: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.winner {
+    display: flex;
+    position: absolute;
+    background-color: mediumpurple;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 14px;
+}
